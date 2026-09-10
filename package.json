@@ -6,12 +6,12 @@
   "license": "MIT",
   "author": {
     "name": "Preet Patel",
-    "url": "https://github.com/preetpatel",
+    "url": "https://github.com/patelpreet404-alt",
     "email": "patelpreet404@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/preetpatel/preet-patel-portfolio"
+    "url": "https://github.com/patelpreet404-alt/preet-patel-portfolio"
   },
   "scripts": {
     "dev": "vite",

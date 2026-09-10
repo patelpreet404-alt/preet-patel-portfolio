@@ -1,13 +1,16 @@
 {
   "name": "Preet Patel",
   "ascii": "preet",
+  "ps1_username": "preet-patel",
+  "ps1_hostname": "preet-patel",
   "title": "Software Development Engineer | Systems, Compilers & AI Specialist",
   "education": "B.Tech in Computer Science and Engineering | Delhi Technological University (CGPA: 7.727)",
   "location": "Delhi, India",
   "email": "patelpreet404@gmail.com",
+  "phone": "+91-8511084006",
   "resumeUrl": "https://drive.google.com/file/d/1wJ8Kj22-lA1ZZn6f3LUmQoYsJYKjWzJR/view?usp=drivesdk",
   "social": {
     "github": "patelpreet404-alt",
-    "linkedin": "preet-patel-162631317"
+    "linkedin": "https://www.linkedin.com/in/preet-patel-162631317/"
   }
 }

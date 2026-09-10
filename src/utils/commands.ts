@@ -22,12 +22,12 @@ import { CalcError, evaluate } from "./calc";
 import { convert, listSupportedUnits } from "./convert";
 import { todoManager } from "./todo";
 
-const hostname = window.location.hostname;
+const hostname = config.ps1_hostname;
 
 export const commands: Record<string, (args: string[]) => Promise<string> | string> = {
   help: () => help(),
   hostname: () => hostname,
-  whoami: () => "preet-patel",
+  whoami: () => config.ps1_username,
   date: () => new Date().toLocaleString(),
   vi: () => `why use vi? try 'emacs'`,
   vim: () => `why use vim? try 'emacs'`,

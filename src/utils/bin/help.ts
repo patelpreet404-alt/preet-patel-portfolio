@@ -1,4 +1,6 @@
-export const help = (): string => `Available commands:
+export const help = (): string => `Welcome to Preet Patel's Interactive Terminal Portfolio!
+
+Available commands:
 
 Profile & Background
   about       Summary of role, education, and technical background

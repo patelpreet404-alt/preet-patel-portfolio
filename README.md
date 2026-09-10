@@ -15,7 +15,7 @@ The terminal presents Preet's education, experience, technical skills, achieveme
 ## Features
 
 - Interactive, responsive terminal interface with command history and Tab completion
-- Custom `preet-patel:~$` prompt and PREET PATEL ASCII banner
+- Custom `preet-patel:~$` prompt and PREET ASCII banner
 - Profile commands for education, experience, skills, projects, and achievements
 - Interactive OptiLang compiler benchmark and ResearchPaper AI RAG demos
 - Resume access and GitHub, LinkedIn, and email integrations

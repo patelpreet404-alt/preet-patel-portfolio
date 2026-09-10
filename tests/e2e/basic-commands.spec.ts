@@ -42,7 +42,7 @@ test.describe('Basic Commands', () => {
     await page.locator('#command-input').fill('hostname');
     await page.keyboard.press('Enter');
 
-    await expect(page.locator('main')).toContainText('localhost');
+    await expect(page.locator('main')).toContainText('preet-patel');
   });
 
   test('should show whoami output', async ({ page }) => {

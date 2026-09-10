@@ -36,7 +36,7 @@ describe('commands', () => {
   describe('hostname', () => {
     it('should return current hostname', () => {
       const result = commands.hostname([]);
-      expect(result).toBe('localhost');
+      expect(result).toBe('preet-patel');
     });
   });
 
@@ -273,9 +273,10 @@ describe('commands', () => {
   describe('banner', () => {
     it('should display the Preet Patel ASCII art banner', async () => {
       const result = await commands.banner([]);
-      expect(result).toContain('█');
-      expect(result).toContain("Type 'resume'");
-      expect(result).toContain("Type 'projects' or 'optilang --metrics'");
+      expect(result).toContain('██████╗');
+      expect(result).toContain("Welcome to Preet Patel's Interactive Terminal Portfolio!");
+      expect(result).toContain("Type 'resume' to open or download my PDF resume.");
+      expect(result).toContain("Type 'projects' or 'optilang --metrics' for software engineering projects.");
     });
   });
 

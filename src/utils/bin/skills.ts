@@ -23,5 +23,4 @@ Tools
 
 Certifications
 	IBM SkillsBuild (RAG, Generative AI)
-	Kaggle (Machine Learning, Python)
-	Certificate Folder`;
+	Kaggle (Machine Learning, Python)`;
