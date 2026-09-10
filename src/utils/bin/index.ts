@@ -1,0 +1,13 @@
+export { about } from "./about";
+export { achievements } from "./achievements";
+export { banner } from "./banner";
+export { education } from "./education";
+export { experience } from "./experience";
+export { github } from "./github";
+export { help } from "./help";
+export { linkedin } from "./linkedin";
+export { optilang } from "./optilang";
+export { projects } from "./projects";
+export { rag } from "./rag";
+export { resume } from "./resume";
+export { skills } from "./skills";
