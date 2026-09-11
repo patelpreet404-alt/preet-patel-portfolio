@@ -1,6 +1,11 @@
 # PREET PATEL - Terminal Portfolio
 
+# PREET PATEL - Terminal Portfolio
+
 An interactive terminal portfolio for **Preet Patel**, a software development engineer focused on systems, compilers, backend platforms, and AI/RAG infrastructure.
+
+🚀 **Live Demo:** [preet-patel-portfolio.vercel.app](https://preet-patel-portfolio.vercel.app/)
+
 
 The portfolio is built with Svelte 4, TypeScript, Tailwind CSS, and Vite. Its primary interface is a responsive terminal with the prompt:
 
