@@ -6,7 +6,6 @@ export const about = (): string => `<div class="space-y-2">
 	<div><span class="text-yellow-400">Education:</span> ${config.education} (Sep 2023 - May 2027)</div>
 	<div><span class="text-yellow-400">Location:</span> ${config.location}</div>
 	<div><span class="text-yellow-400">Email:</span> <a class="text-green-400 underline" href="mailto:${config.email}">${config.email}</a></div>
-	<div><span class="text-yellow-400">Phone:</span> <a class="text-green-400 underline" href="tel:${config.phone}">${config.phone}</a></div>
 	<div><span class="text-yellow-400">GitHub:</span> <a class="text-green-400 underline" href="https://github.com/${config.social.github}" target="_blank" rel="noreferrer">https://github.com/${config.social.github}</a></div>
 	<div><span class="text-yellow-400">LinkedIn:</span> <a class="text-green-400 underline" href="${config.social.linkedin}" target="_blank" rel="noreferrer">${config.social.linkedin}</a></div>
 	<div class="pt-2">Computer Science software development engineer focused on backend systems, AI/RAG platforms, and compiler development.</div>
