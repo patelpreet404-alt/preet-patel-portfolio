@@ -59,11 +59,11 @@ describe('history store', () => {
   });
 
   it('should remove phone details from saved terminal output', () => {
-    const oldAboutOutput = '<div><span class="text-yellow-400">Email:</span> preet@example.com</div><div><span class="text-yellow-400">Phone:</span> <a href="tel:+91-8511084006">+91-8511084006</a></div>';
+    const oldAboutOutput = '<div><span class="text-yellow-400">Email:</span> preet@example.com</div><div><span class="text-yellow-400">Phone:</span> <a href="tel:+00-00000-00000">+00-00000-00000</a></div>';
     const sanitized = sanitizeHistory([{ command: 'about', outputs: [oldAboutOutput] }]);
 
     expect(sanitized[0].outputs[0]).not.toContain('Phone:');
-    expect(sanitized[0].outputs[0]).not.toContain('8511084006');
+    expect(sanitized[0].outputs[0]).not.toContain('+00-00000-00000');
     expect(sanitized[0].outputs[0]).toContain('preet@example.com');
   });
 });
